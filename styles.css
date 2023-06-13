@@ -1,0 +1,88 @@
+
+/* Estilo general */
+body {
+    background-color: #000;
+    background-image: url('img/moneda_bg.png');
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  h1, h2, h3 {
+    color: #fff;
+  }
+  
+  button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="password"], input[type="number"] {
+    background-color: #3b2f72;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 165px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.896);
+  }
+  
+  #login, #options, #actions {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #login h2, #options h2, #actions h2 {
+    font-size: 24px;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+  }
+  
+  #login button, #options button, #actions button {
+    background-color: #8c7ae6;
+    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  #errorMessage, #depositMessage, #withdrawMessage {
+    color: #ff0000;
+    font-size: 16px;
+  }
+  
+  #balance {
+    margin-top: 20px;
+  }
+  
+  #balance h3 {
+    font-size: 30px;
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.896);
+  }
+  
+  #deposit, #withdraw {
+    margin-top: 20px;
+  }
+  
+  #deposit h3, #withdraw h3 {
+    font-size: 23px;
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.929);
+  }
+  
+  #depositAmount, #withdrawAmount {
+    width: 100px;
+  }
+  
